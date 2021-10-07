@@ -1,5 +1,5 @@
-const csv = require("csvtojson");
-const { createReadStream, createWriteStream } = require("fs");
+import csv from "csvtojson";
+import { createReadStream, createWriteStream } from "fs";
 
 const input = "./csv/index.csv";
 const output = "./text/index.txt";
